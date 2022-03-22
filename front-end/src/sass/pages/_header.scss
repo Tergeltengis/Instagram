@@ -1,0 +1,110 @@
+/* Header component start */
+.pageheader {
+	position: sticky;
+	top: 0px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #ffff;
+	padding: 10px 0;
+}
+
+
+
+::placeholder {
+	font-size: 1em;
+	font-weight: 100;
+	color: #8e8e8e;
+}
+
+.header-icons {
+	cursor: pointer;
+	font-size: 1.7em;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-evenly;
+	width: 16%;
+}
+
+.page-link:visited {
+	color: black;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-color: cornflowerblue;
+	border: none;
+	margin-right: 10px;
+}
+
+.spacing10 {
+	margin: 10px;
+}
+
+
+
+.username {
+	margin-right: 10px;
+	font-weight: 700;
+}
+
+.likes,
+.username,
+.caption,
+.comment {
+	font-size: 0.9em;
+}
+
+.time-stamp {
+	margin: 10px;
+	font-size: 0.6em;
+	color: #8e8e8e;
+	text-transform: uppercase;
+}
+
+.add-comment {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #e5e5e5;
+}
+
+#comment-input {
+	padding: 10px;
+	margin: 10px;
+	outline: none;
+	border: none;
+	width: 90%;
+}
+
+.searchbar{
+	height: 40px;
+	width: 192px;
+	padding: 7px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	&__icon{
+		top:0px;
+		left: 0px;
+		position: absolute;
+		margin-left: 20px;
+		margin-top: 7px;
+		width: 100%;
+		height: 100%;
+	}
+	&__input{
+		position: relative;
+		&-field{
+			text-align: center;
+			padding: 5px 25px;
+			border: 1px solid #e5e5e5;
+			border-radius: 5px;
+			outline: none;
+		}
+	}
+}

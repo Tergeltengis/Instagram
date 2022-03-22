@@ -1,0 +1,147 @@
+.login{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 32px auto 0;
+    justify-content: center;
+    &__section{
+        display: flex;
+        height: 100%;
+        margin: auto 40px;
+    }
+    &__container{
+   
+        font-size: 0.8rem;
+        max-width: 350px;
+         width: 100%;
+         text-align: center;
+     
+     }
+     &__form{
+        border: 1px solid rgba(var(--b6a,219,219,219),1);
+        background-color: rgba(var(--d87,255,255,255),1);
+        border-radius: 1px;
+        padding: 20px 0;
+    }
+    &__header{
+        margin-bottom: 30px;
+    }
+    &__header-img{
+        background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+        background-repeat: no-repeat;
+        background-position: 0 -130px;
+        height: 51px;
+        width: 175px;
+        margin: 22px auto 12px;
+    }
+    
+    &__header-text {
+        display: block;
+        overflow: hidden;
+        text-indent: 110%;
+        white-space: nowrap;
+        font-family: inherit;
+    }
+    &__username{
+        display: block;
+        margin: 0 40px 6px;
+    }
+    &__password{
+        display: block;
+        margin: 0 40px 6px;
+        
+    }
+    &__password-text{
+       height: 15px;
+       width: 250px;
+       padding: 9px 0 7px 8px;
+    }
+    
+    &__username-text{
+        height: 15px;
+        width: 250px;
+        padding: 9px 0 7px 8px;
+         
+     }
+    
+     &__submit{
+        display: block;
+        margin: 0 40px 6px;
+     }
+     &__submit-btn{
+        width: 260px;
+        height: 29px;
+        border: 1px solid transparent;
+        background-color: rgba(var(--d69,0,149,246),.3);
+        opacity: 1;
+        color:aliceblue;
+        font-weight: 700;
+        border-radius: 7px;
+     }
+    
+     &__iphone-header{
+        margin: 99px 0 0 151px;
+        position: relative;
+    
+     }
+    
+     &__image-section{
+        display: flex;
+        background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+        height: 618px;
+        background-repeat: no-repeat;
+     }
+    
+     &__signup{
+         margin-top: 10px;
+         padding: 10px;
+        border: 1px solid rgba(var(--b6a,219,219,219),1);
+        background-color: rgba(var(--d87,255,255,255),1);
+        border-radius: 1px;
+     }
+    
+     &__line{
+         display: flex;
+        
+     }
+     &__text-or{
+        color: #8e8e8e;
+        color: rgba(var(--f52,142,142,142),1);
+        flex-grow: 0;
+        flex-shrink: 0;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 15px;
+        margin-top: 20px ;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+     }
+    
+     &__line-abstract{
+         display: flex;
+        flex-direction: row;
+        margin: 20px 20px 18px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        background-color: #dbdbdb;
+        background-color: $color-inactive-blue;
+        height: 1px;
+        position: relative;
+        top: .45em;
+     }
+     &__forget{
+         display: flex;
+         flex-direction: column;
+     }
+     &__submit-btn-active{
+         background-color: $color-active-blue;
+     }
+
+     &__errorMessage{
+         color: red;
+         margin-bottom:3px;
+         margin-top: -25px;
+     }
+
+
+}

@@ -1,0 +1,84 @@
+.post{
+    &__btn {
+        width: 15%;
+        background-color: #fff;
+        border-color: #fff;
+        color: #0095f6;
+        border: none;
+        cursor: pointer;
+    }
+    
+&__card {
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	margin: 10px 0;
+	background-color: #fff;
+    img {
+        width: 614px;
+        height: 614px;
+    }
+}
+
+
+/* post-card */
+&__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+&__footer {
+	font-size: 0.9em;
+    svg {
+        font-size: 2em;
+    }
+    svg:nth-child(2) {
+        margin-left: 10px;
+    }
+}
+&__list{
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+}
+&__profile__pic {
+        border-radius: 50%;
+        border: 2px solid red;
+        width: 40px;
+        height: 40px;
+    img{
+        border-radius: 50%;
+        width:100%;
+        height: 100%;
+    }
+}
+&__comment {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+&__account {
+	display: flex;
+	align-items: center;
+
+    &__username {
+        color: $color-black;
+        margin-left: 10px;
+        font-weight: 700;
+        font-size: $default-font-size;
+    }
+}
+
+&__caption{
+    margin-left: 10px;
+    &__text{
+        font-size: $default-font-size;
+        margin-left: 5px;
+    }
+}
+&__username{
+    font-size: $default-font-size;
+    font-weight: 700;
+}
+}

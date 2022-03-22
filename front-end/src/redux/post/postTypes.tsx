@@ -1,0 +1,6 @@
+const postTypes = {
+    POST_LOAD_START: 'POST_LOAD_START',
+    POST_LOAD_FAILURE: 'POST_LOAD_FAILURE',
+    POST_LOAD_SUCCESS: 'POST_LOAD_SUCCESS',
+}
+export default postTypes;
